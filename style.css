@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    background: url('tic-tac-toe-img3.avif');
+}
+#start{
+    height: 6vmin;
+    width: 18vmin;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-decoration: solid;
+    color: aliceblue;
+    font-size: 2.5vmin;
+}
+h1{
+    color: rgb(222, 193, 193);
+    padding: 7rem 0;
+}
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: blueviolet;
+    color: pink;
+    border: none;
+    border-radius: 1rem;
+    font-size: 8vmin;
+}
+#reset-btn{
+    height: 6vmin;
+    width: 18vmin;
+    background-color: black;
+    color: white;
+    font-size: 2.5vmin;
+}
+#new-btn{
+    height: 6vmin;
+    width: 18vmin;
+    background-color: black;
+    color: white;
+    font-size: 2.5vmin;
+
+}
+.msg-container{
+    font-size: 8vmin;
+}
+.hide{
+    display: none;
+}
